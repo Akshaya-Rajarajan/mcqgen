@@ -1,0 +1,4 @@
+MCQ,Choices,Correct
+What is the main focus of machine learning?,a: Imitating human behavior | b: Creating new algorithms | c: Analyzing historical data | d: Predicting future outcomes,a
+What does the error function in a machine learning algorithm do?,a: Evaluates the prediction of the model | b: Adjusts the weights of the model | c: Generates new data points | d: Selects the input data,a
+How does a machine learning algorithm optimize its model?,a: By increasing the error function | b: By repeating the evaluation process | c: By adjusting weights to reduce discrepancy | d: By ignoring known examples,c
