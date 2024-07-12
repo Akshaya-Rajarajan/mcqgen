@@ -3,8 +3,8 @@ import json
 import traceback
 import pandas as pd
 from dotenv import load_dotenv
-from mcqgenerator.utils import read_file,get_table_data
-from mcqgenerator.logger import logging
+from src.mcqgenerator.utils import read_file,get_table_data
+from src.mcqgenerator.logger import logging
 
 import subprocess
 import sys
@@ -20,6 +20,11 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
+
+import certifi
+# Update SSL certificates path
+os.environ['SSL_CERT_FILE'] = certifi.where()
+
 
 # Load environment variables from the .env file
 load_dotenv()
